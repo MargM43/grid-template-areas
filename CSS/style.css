@@ -37,7 +37,7 @@
 
 
 /* Basic setup */
-/* body {
+body {
     background: var(--clr-Black);
     font-family: "Barlow semi condensed", sans-serif;
     font-size: var(--step-0);
@@ -56,7 +56,7 @@ p {
 }
 
 /* General settings for boxes */
-/* .container {
+.container {
  display: flex;
  flex-direction: column;
  justify-content:center;
@@ -75,7 +75,7 @@ p {
      padding: 1rem;
     border-radius: 10px;
     margin-block-end: 1rem;
-}  */
+} 
 
 /* Basic style settings */
 
