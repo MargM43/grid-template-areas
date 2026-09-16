@@ -77,7 +77,8 @@ p {
 .card {
      padding: 1rem;
     border-radius: 10px;
-    margin-block-end: 1rem;
+    box-shadow: 10px 20px #cfcdcd;
+    margin-block-end: 2rem;
 } 
 
 /* Basic style settings */
@@ -101,6 +102,10 @@ span {
 .grid-col-span-2 {
     grid-column: span 2;
 } 
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
 
 /* Individual card styles */
 
@@ -131,6 +136,13 @@ span {
     background-color: var(--Purple-pale);
 }
 
+.card__JeanetteHarmon .person
+.card__JeanetteHarmon h2, 
+.card__JeanetteHarmon p {
+    color: var(--clr-Black);
+    padding-block-end: 1rem;
+} 
+
 .card__PatrickAbrams {
     background-color: var(--clr-Black);
 }
@@ -155,4 +167,54 @@ span {
 
 /* layout */
 
- 
+.article1 {
+    grid-area: daniel;
+}
+.article2 {
+    grid-area: jonathan;
+}
+.article3 {
+    grid-area: jeanette;
+}
+.article4 {
+    grid-area: patrick;
+}
+
+.article5 {
+    grid-area: kira;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "daniel"
+    "jonathan"
+    "jeanette"
+    "patrick"
+    "kira";
+
+@media (width >= 600px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        grid-template-areas: 
+        "daniel daniel"
+        "jonathan jeanette"
+        "patrick patrick"
+        "kira kira";
+    }
+
+@media (width >= 1000px) {
+     grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+}
+
+}
+
+
+
+
+
