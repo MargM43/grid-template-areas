@@ -194,7 +194,7 @@ span {
     "patrick"
     "kira";
 
-@media (width >= 600px) {
+@media (width >= 800px) {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
         grid-template-areas: 
