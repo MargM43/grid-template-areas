@@ -1,32 +1,69 @@
-# Frontend Mentor - Testimonials grid section
+# Frontend Mentor - Testimonials grid section solution
 
-![Design preview for the Testimonials grid section coding challenge](./preview.jpg)
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+- This challenge required learners to complete the markup using only the supplied content. The challenge was to use html & CSS to style the page according to a supplied template for both desktop and mobile devices. Testimonials ahd to be laid out accordingl;y.
 
-## The challenge
+### Screenshot![alt text](<Testimonial grid challenge.png>)
 
-Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.
+### Links
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- Solution URL: [from Github](https://github.com/MargM43/grid-template-areas)
+- Solution URL: [from Netlify](https://app.netlify.com/projects/kirawhittle/overview)
 
-Your users should be able to:
+## My process
 
-- View the optimal layout for the site depending on their device's screen size
+### Progression of my Process
 
-### Want some support on the challenge? 
+- After looking at the design, I started by formatting the HTML by:
+-- creating an outer container to hold the cards but not the footer and
+-- creating a cards div to hold individual cards. 
+-- Inside these I created 5 articles with classes. One article one for each person's info.
+-- I then gave classes to the individual elements
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- CSS came next with resets, root elements and basic layout setup.
+-- Style setting for color, spacing and font sizing was next.
+-- Then came individual cards with colors, bg colors & padding.
+-- Where individualised styles were needed I did this next.
+-- Finally I did the grid layout.
 
-## Where to find everything
+## Built with
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Grid areas
+- Mobile first workflow
+
+### What I learned
+
+- My major learning was how to set up a grid using grid-area:
+-- ```.article1 {
+        grid-area: daniel;
+}```
+-- and then how to use the names of these grid areas in grid-template columns for different width devices.
+
+### Continued development
+
+<!-- Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
 The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
 
@@ -102,4 +139,4 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-# grid-template-areas
+# grid-template-areas -->
